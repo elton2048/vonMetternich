@@ -1,0 +1,8 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Abbey"
+theme = "hyde"
+
+[params]
+    description = "When there is a will, there is a way"
+    themeColor = "theme-base-0e"
