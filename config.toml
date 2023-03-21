@@ -1,8 +1,22 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Abbey"
-theme = "hyde"
+theme = "digitalgarden"
 
 [params]
     description = "When there is a will, there is a way"
     themeColor = "theme-base-0e"
+
+[menu]
+[[menu.main]]
+    name = 'Home'
+    url = '/'
+    weight = 1
+[[menu.main]]
+    name = 'Content'
+    params.header = true
+    weight = 2
+[[menu.main]]
+    name = 'Articles'
+    url = '/articles'
+    weight = 3
