@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://elton2048.github.io/vonMetternich/"
 languageCode = "en-us"
 title = "Abbey"
 theme = "digitalgarden"
@@ -13,10 +13,14 @@ theme = "digitalgarden"
     url = '/'
     weight = 1
 [[menu.main]]
+    name = 'About'
+    url = '/about'
+    weight = 2
+[[menu.main]]
     name = 'Content'
     params.header = true
-    weight = 2
+    weight = 3
 [[menu.main]]
     name = 'Articles'
     url = '/articles'
-    weight = 3
+    weight = 4
