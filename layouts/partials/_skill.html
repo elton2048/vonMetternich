@@ -1,0 +1,21 @@
+{{ if .Skill }}
+<section id="skill">
+  <div class="font-mono uppercase text-3xl">Skill Summary</div>
+  <ul>
+    {{ range .Skill }}
+    <li>
+      {{ .Family }}
+      {{ if .Items }}
+      <ul>
+        {{ range .Items }}
+        <li>
+          {{ . }}
+        </li>
+        {{ end }}
+      </ul>
+      {{ end }}
+    </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}
