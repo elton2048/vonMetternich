@@ -1,0 +1,8 @@
+{{ if .Profile }}
+<section id="profile">
+  <div class="font-mono uppercase text-3xl">Profile</div>
+  <p>
+    {{ .Profile | safeHTML | emojify }}
+  </p>
+</section>
+{{ end }}

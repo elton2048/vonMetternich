@@ -1,0 +1,22 @@
+{{ define "main" }}
+{{ $resume := .Scratch.Get "resume" }}
+
+<main class="h-screen overflow-y-auto w-full">
+  <!-- <div class="px-6 py-20 w-full lg:w-[580px] mx-auto prose dark:prose-invert h-fit prose-img:mx-auto"> -->
+  <div class="flex px-3 py-20 min-w-full lg:min-w-[960px] mx-auto prose dark:prose-invert h-fit prose-img:mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+      <div class="col-span-1 md:col-span-2">
+        {{ partial "_basicinfo.html" $resume }}
+
+        {{ partial "_profile.html" $resume }}
+        {{ partial "_experience.html" $resume }}
+      </div>
+      <div class="col-span-1">
+        {{ partial "_skill.html" $resume }}
+      </div>
+    </div>
+
+  </div>
+</main>
+
+{{ end }}

@@ -1,0 +1,28 @@
+{{ if .BasicInfo }}
+<section id="info">
+  <div class="md:flex">
+    <div class="md:flex-1 font-mono uppercase text-5xl mb-5">
+      <span class="text-slate-800">
+        {{ .BasicInfo.FirstName }}
+      </span>
+      <span class="">
+        {{ .BasicInfo.LastName }}
+      </span>
+    </div>
+    <div class="flex md:flex-1 flex-col justify-center items-end">
+      {{ if .BasicInfo.Github }}
+      <div class="flex items-center">
+        {{- partial "icon/githubIcon.html" . -}}
+        <span>&nbsp;<a class="no-underline" href="{{ .BasicInfo.Github }}">{{ .BasicInfo.Github }}</a></span>
+      </div>
+      {{ end }}
+      {{ if .BasicInfo.Email }}
+      <div class="flex items-center">
+        {{- partial "icon/emailIcon.html" . -}}
+        <span>&nbsp;<a class="no-underline" href="{{ .BasicInfo.Email }}">{{ .BasicInfo.Email }}</a></span>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
