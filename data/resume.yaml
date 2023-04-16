@@ -1,0 +1,50 @@
+BasicInfo:
+  FirstName: Elton
+  LastName: Lee
+  Email: elton2048@gmail.com
+  Github: https://github.com/elton2048
+
+Profile: A software engineer believes the most important thing is to solve problems. Focused on frontend, love to think what is good for the user. Emacs-lover, have a self-managed Emacs config.
+
+Experience:
+  - Employer: Enyk Limited.
+    Place: Hong Kong
+    Title: Software Engineer
+    Date: Sep 2018 - Dec 2022
+    Details:
+      - Develop frontend layout for a Ruby on Rails app under its own template-based system; Maintain and bug fixing on backend
+      - Team member of a secure file transfer application Encl; Focused on frontend app including layout and routing based on Preact
+      - Team member of an authentication and authorization service called Niomon; Focused on frontend admin panel and signin widget; With occasional backend development
+      - Team member of a crypto wallet application called Ditto which based on Niomon; Focused on development of hybrid mobile app using React Native as well as native code for some bridge service
+    Badges: ['React Native', 'React', 'Typescript', 'iOS', 'Android', 'Golang', 'Ruby']
+  - Employer: HITA Group.
+    Place: Hong Kong
+    Title: Software Engineer
+    Date: Oct 2016 - Aug 2018
+    Details:
+      - Develop Android applications in Kotlin
+      - Responsible for the system of music-provide platform in backend revamp and Android app development.
+    Badges: ['iOS', 'Android']
+  - Employer: Galaxy (Asia) Ltd.
+    Place: Hong Kong
+    Title: Mobile Applications Developer (Part time)
+    Date: Sep 2015 - Oct 2016
+    Details:
+      - Develop hybrid mobile app to use QR code for shopping mall event on Cordova platform
+      - Develop retailer hybrid mobile app for customers on Cordova.
+      - Maintain existing native call vans app in both Android and iOS platform
+    Badges: ['Mobile App', 'iOS', 'Android']
+
+Skill:
+  - Family: Programming
+    Items:
+      - Javascript/Typescript
+      - Swift
+      - Kotlin
+      - Golang
+      - Python
+  - Family: Framework
+    Items:
+      - React
+      - Tailwind
+      - Django
