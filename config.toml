@@ -1,26 +1,27 @@
 baseURL = "https://elton2048.github.io/vonMetternich/"
 languageCode = "en-us"
-title = "Abbey"
+title = "Lee's"
 theme = "digitalgarden"
 
 [params]
-    description = "When there is a will, there is a way"
+    # description = "When there is a will, there is a way"
     themeColor = "theme-base-0e"
 
 [menu]
-[[menu.main]]
-    name = 'Home'
-    url = '/'
-    weight = 1
+# [[menu.main]]
+#     name = 'Home'
+#     url = '/'
+#     weight = 1
 [[menu.main]]
     name = 'About'
     url = '/about'
+    title = 'About'
     weight = 2
-[[menu.main]]
-    name = 'Content'
-    params.header = true
-    weight = 3
-[[menu.main]]
-    name = 'Articles'
-    url = '/articles'
-    weight = 4
+# [[menu.main]]
+#     name = 'Content'
+#     params.header = true
+#     weight = 3
+# [[menu.main]]
+#     name = 'Articles'
+#     url = '/articles'
+#     weight = 4
