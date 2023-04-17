@@ -13,17 +13,17 @@ Experience:
     Date: Sep 2018 - Dec 2022
     Details:
       - Develop frontend layout for a Ruby on Rails app under its own template-based system; Maintain and bug fixing on backend
-      - Team member of a secure file transfer application Encl; Focused on frontend app including layout and routing based on Preact
-      - Team member of an authentication and authorization service called Niomon; Focused on frontend admin panel and signin widget; With occasional backend development
-      - Team member of a crypto wallet application called Ditto which based on Niomon; Focused on development of hybrid mobile app using React Native as well as native code for some bridge service
+      - Develop frontend app including layout and routing based on Preact for a secure file transfer application called Encl
+      - Develop on frontend admin panel and signin widget for an authentication and authorization service called Niomon; With occasional backend development
+      - Develop a hybrid mobile app using React Native as well as some bridge service on native side using Swift for a crypto wallet application called Ditto which based on Niomon
     Badges: ['React Native', 'React', 'Typescript', 'iOS', 'Android', 'Golang', 'Ruby']
   - Employer: HITA Group.
     Place: Hong Kong
     Title: Software Engineer
     Date: Oct 2016 - Aug 2018
     Details:
-      - Develop Android applications in Kotlin
-      - Responsible for the system of music-provide platform in backend revamp and Android app development.
+      - Develop an Android mobile application for a music-provided platform on native using Kotlin
+      - Revamp backend using Django framework
     Badges: ['iOS', 'Android']
   - Employer: Galaxy (Asia) Ltd.
     Place: Hong Kong
@@ -31,9 +31,9 @@ Experience:
     Date: Sep 2015 - Oct 2016
     Details:
       - Develop hybrid mobile app to use QR code for shopping mall event on Cordova platform
-      - Develop retailer hybrid mobile app for customers on Cordova.
-      - Maintain existing native call vans app in both Android and iOS platform
-    Badges: ['Mobile App', 'iOS', 'Android']
+      - Develop hybrid mobile app of a retailer for customers on Cordova
+      - Maintain native call vans app in both Android and iOS platform
+    Badges: ['Javascript', 'iOS', 'Android']
 
 Skill:
   - Family: Programming
@@ -43,8 +43,10 @@ Skill:
       - Kotlin
       - Golang
       - Python
+      - Bash scripts
   - Family: Framework
     Items:
       - React
+      - Vue
       - Tailwind
       - Django
