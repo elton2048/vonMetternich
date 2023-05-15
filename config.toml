@@ -17,11 +17,11 @@ theme = "digitalgarden"
     url = '/about'
     title = 'About'
     weight = 2
-# [[menu.main]]
-#     name = 'Content'
-#     params.header = true
-#     weight = 3
-# [[menu.main]]
-#     name = 'Articles'
-#     url = '/articles'
-#     weight = 4
+[[menu.main]]
+    name = 'Content'
+    params.header = true
+    weight = 3
+[[menu.main]]
+    name = 'Articles'
+    url = '/articles'
+    weight = 4
